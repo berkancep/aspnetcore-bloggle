@@ -1,0 +1,13 @@
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Data.deps.json
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Data.dll
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Data.pdb
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.csprojAssemblyReference.cache
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.AssemblyInfoInputs.cache
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.AssemblyInfo.cs
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.dll
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.pdb
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Entitiy.dll
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Entitiy.pdb
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\obj\Debug\netcoreapp3.1\BlogApplication.Data.csproj.CopyComplete
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Data.runtimeconfig.json
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Data\bin\Debug\netcoreapp3.1\BlogApplication.Data.runtimeconfig.dev.json

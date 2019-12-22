@@ -1,0 +1,42 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-3">
+    <h1>Create Blog</h1>
+
+
+    <form asp-controller="Blog" asp-action="Create" method="post">
+
+        <div asp-validation-summary="All">
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Title">Title</label>
+            <input asp-for="Title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+     
+        <div class="form-group">
+            <label asp-for="CategoryId">Categories</label>
+
+            <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.Categories">
+                <option selected disabled>Select Category</option>
+            </select>
+        </div>
+
+
+        <input type="submit" value="Create" class="btn btn-success" />
+
+    </form>
+</div>
+
+

@@ -1,0 +1,8 @@
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\bin\Debug\netcoreapp3.1\BlogApplication.Entitiy.deps.json
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\bin\Debug\netcoreapp3.1\BlogApplication.Entitiy.dll
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\bin\Debug\netcoreapp3.1\BlogApplication.Entitiy.pdb
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\obj\Debug\netcoreapp3.1\BlogApplication.Entitiy.csprojAssemblyReference.cache
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\obj\Debug\netcoreapp3.1\BlogApplication.Entitiy.AssemblyInfoInputs.cache
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\obj\Debug\netcoreapp3.1\BlogApplication.Entitiy.AssemblyInfo.cs
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\obj\Debug\netcoreapp3.1\BlogApplication.Entitiy.dll
+C:\Users\Berkan Çep\Desktop\Folders\Works\Udemy\SadikTuran\BlogApplication\BlogApplication.Entitiy\obj\Debug\netcoreapp3.1\BlogApplication.Entitiy.pdb

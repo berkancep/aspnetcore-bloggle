@@ -1,0 +1,75 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "CreateOrEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-3">
+    <h1>Create or Edit Blog</h1>
+
+
+    <form asp-controller="Blog" asp-action="CreateOrEdit" method="post">
+
+        <input type="hidden" asp-for="Id" />
+
+        <div asp-validation-summary="All">
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Title">Title</label>
+            <input asp-for="Title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Body">Body</label>
+            <textarea asp-for="Body" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Image">Image</label>
+            <input asp-for="Image" class="form-control" />
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsApproved" class="form-check-label">
+
+                <input asp-for="IsApproved" class="form-check-input" />
+                Is Approved
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsHome" class="form-check-label">
+
+                <input asp-for="IsHome" class="form-check-input" />
+                Is Home
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsSlider" class="form-check-label">
+
+                <input asp-for="IsSlider" class="form-check-input" />
+                Is Slider
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CategoryId">Categories</label>
+
+            <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.Categories">
+                <option selected disabled>Select Category</option>
+            </select>
+        </div>
+
+
+        <input type="submit" value="Update" class="btn btn-success" />
+
+    </form>
+</div>

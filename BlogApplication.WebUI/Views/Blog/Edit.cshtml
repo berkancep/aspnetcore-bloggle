@@ -1,0 +1,88 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section scripts{
+    <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+
+    <script>
+            CKEDITOR.replace("Body")
+    </script>
+}
+
+<div class="container mt-3">
+    <h1>Edit Blog</h1>
+
+
+    <form asp-controller="Blog" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Image" />
+
+        <div asp-validation-summary="All">
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Title">Title</label>
+            <input asp-for="Title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Body">Body</label>
+            <textarea asp-for="Body" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Image">Image</label>
+            <br />
+            <img src="~/img/@Model.Image" width="205" />
+            <br /> <br />
+            <input type="file" asp-for="Image" class="form-control-file" />
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsApproved" class="form-check-label">
+
+                <input asp-for="IsApproved" class="form-check-input" />
+                Is Approved
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsHome" class="form-check-label">
+
+                <input asp-for="IsHome" class="form-check-input" />
+                Is Home
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label asp-for="IsSlider" class="form-check-label">
+
+                <input asp-for="IsSlider" class="form-check-input" />
+                Is Slider
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CategoryId">Categories</label>
+
+            <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.Categories">
+                <option selected disabled>Select Category</option>
+            </select>
+        </div>
+
+
+        <input type="submit" value="Update" class="btn btn-success" />
+
+    </form>
+</div>
+

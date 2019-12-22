@@ -1,0 +1,23 @@
+﻿@model HomeBlogModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+
+            @await Component.InvokeAsync("CategoryMenu")
+
+        </div>
+        <div class="col-md-9">
+
+            <partial name="_Slider" model="Model.SliderBlogs" />
+            <partial name="_BlogList" model="Model.HomeBlogs" />
+
+        </div>
+    </div>
+</div>
